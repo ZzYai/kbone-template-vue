@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'PingFangSC-Regular';
+    src: url('../src/font/PingFang Regular.otf'), url('../src/font/PingFangSCzz.ttf');
+}
+
+/* @font-face {
+    font-family: 'PingFang SC';
+    src: url('../src/font/PingFang Medium_downcc.otf');
+} */
+
+/* @font-face {
+    font-family: 'PingFang SC';
+    src: url('../src/font/PingFangSCzz.ttf');
+} */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    /* line-height: 1; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+.fcRed {
+    color: #E92E3C;
+}
+
+.fcBlue {
+    color: #116dfa;
+}
+
+.fcur {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+.redBtn {
+    border: none;
+    background: #f32a37;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.redBtn:hover {
+    background: #EB0818;
+}
+
+.redBtn:active {
+    background: #a5030e;
+}
+
+.whiteBtn {
+    background: #ffffff;
+    border-radius: 5px;
+    color: #242424;
+    border: 1px solid #CACACA;
+    /* font-size: 12px; */
+    /* font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400; */
+    /* color: #8B8B8B; */
+}
+
+/* .whiteBtn:hover {
+    background: #f7f7f7;
+} */
+
+.whiteBtn:active {
+    background: #eeeeee;
+}
+
+.blueBtn {
+    background: #116dfa;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.blueBtn:hover {
+    background: #1365e2;
+}
+
+.blueBtn:active {
+    background: #1254ba;
+}
+
+/* 轻提示 重改样式 */
+
+.van-toast.failToast {
+    width: 250px;
+    height: 150px;
+    top: 36%;
+}
+
+.van-toast.successToast .van-icon, .van-toast.failToast .van-icon {
+    font-size: 60px;
+}
+
+.failToast .van-toast__text {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+/* 发送成功 */
+
+.van-toast.successToast {
+    width: 250px;
+    height: 150px;
+    top: 36%;
+}
+
+.successToast .van-toast__text {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+/* 加载中 */
+
+.van-toast--loading.DetailLoading {
+    transform: translate3d(-50%, -50%, 0) scale(1.5);
+}
+
+.van-toast--loading.DetailLoading .van-toast__text {
+    font-size: 14px;
+}

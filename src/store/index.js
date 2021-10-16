@@ -1,15 +1,16 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import actions from './actions'
-import mutations from './mutations'
-
+import Vue from "vue"
+import Vuex from "vuex"
+import pageActive from "./pageActive"
+import user from "./user"
+import enterprise from "./enterprise"
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
-    headerTips: 'hello',
-    input: '',
-  },
-  actions,
-  mutations,
+let store = new Vuex.Store({
+    modules:{
+        pageActive,
+        user,
+        enterprise
+    }
 })
+
+export default store
